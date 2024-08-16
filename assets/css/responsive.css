@@ -1,0 +1,308 @@
+@media (min-width: 1600px){
+    
+    .layout{
+        width: 100%;
+    }
+
+    .layout__menu{
+        padding: 3rem 8rem;
+    }
+
+}
+
+@media (min-width: 1199px) and (max-width: 1400px){
+    
+    .news__container,
+    .contact__container,
+    .footer__container{
+        max-width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .projects__all{
+        gap: 3rem;
+    }
+
+    .nav__title{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:1200px){
+
+    .layout{
+        width: 100%;
+    }
+
+    .nav__title{
+        font-size: 1.3rem;
+    }
+    .nav__item{
+        margin: 0 2rem;
+    }
+
+    .news__container,
+    .contact__container,
+    .footer__container{
+        max-width: 96rem;
+
+    }
+
+
+    .layout__news{
+        padding: 10rem 0;
+    }
+
+    .news__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news__new:last-child{
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .layout__contact{
+        padding-top: 10rem;
+        padding-bottom: 7rem;
+    }
+
+
+}
+
+@media (max-width: 1000px){
+
+    .layout{
+        width: 100%;
+    }
+
+    .navbar__mobile-btn{
+        display: block;
+    }
+
+    .navbar__nav{
+        display: none;
+    }
+
+    .layout__banner{
+        
+        margin: 3rem 3rem;
+
+    }
+
+    .news__container,
+    .contact__container,
+    .footer__container{
+        max-width: 72rem;
+
+    }
+
+    .news__subtitle,
+    .contact__subtitle{
+        font-size: 1.8rem;
+    }
+
+    .news__title,
+    .contact__title{
+        font-size: 5rem;
+    }
+
+    .news__description{
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .layout__news{
+        padding: 8rem 0;
+    }
+
+    .layout__contact{
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+
+    .layout__contact::before{
+        height: 45rem;
+    }
+
+    .contact__title{
+        width: 100%;
+    }
+
+    .contact__btn{
+        padding: 1.8rem 3.5rem;
+    }
+
+    .contact__thumb--chat{
+        margin-right: -13rem;
+        margin-bottom: -0.8rem;
+        width: 70%;
+    }
+
+    .contact__imgages{
+        width: 100%;
+    }
+
+    .contact__thumb--laptop{
+        left: 0rem;
+    }
+
+    .contact__thumb--mobile{
+        right: -4rem;
+    }
+
+    .contact__img{
+        width: 70%;
+    }
+
+    .social__img{
+        font-size: 2rem;
+    }
+
+    .footer__main{
+        flex-direction: column;
+    }
+
+    .footer__fleft{
+        width: 100%;
+    }
+
+    .fleft__container{
+        border-right: none;
+    }
+
+    .footer__right{
+        width: 100%;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
+    }
+
+    .footer__copyright{
+        flex-basis: auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .footer__links{
+        flex-basis: auto;
+        text-align: center; 
+    }
+
+    .footer__flinks{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 770px){
+
+    .layout__banner{
+        margin: 3rem 3rem;
+    }
+
+    .banner__title{
+        font-size: 4rem;
+    }
+
+    .contact__container,
+    .footer__container{
+        max-width: 54rem;
+
+    }
+
+    .news__subtitle,
+    .contact__subtitle{
+        font-size: 1.6rem;
+    }
+
+    .news__title,
+    .contact__title{
+        font-size: 5rem;
+    }
+
+    .layout__news{
+        padding: 6rem 0;
+    }
+
+    .new__title{
+        font-size: 2rem;
+    }
+
+    .news__new{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new__container-img{
+        width: 100%;
+    }
+
+    .new__img{
+        width: 100%;
+    }
+
+    .layout__contact{
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+
+    .layout__contact::before{
+        height: 47rem;
+    }
+
+    .contact__thumb--chat{
+        margin-right: -33rem;
+        margin-bottom: -0.8rem;
+        width: 100%;
+    }
+
+
+    .contact__thumb--laptop{
+        left: 0rem;
+    }
+
+    .contact__thumb--mobile{
+        right: -15rem;
+    }
+
+    .contact__img{
+        width: 60%;
+    }
+
+    .fleft__container{
+        padding-right: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 640px){
+
+    .news__container,
+    .footer__container{
+
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+    }
+
+    .layout__services{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+
+
+    @media(max-width: 600px){
+
+        .layout{
+            width: 100% !important;
+        }
+    }    
+ 
+
+}
